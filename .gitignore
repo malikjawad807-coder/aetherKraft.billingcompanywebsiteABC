@@ -1,0 +1,5 @@
+# Dependencies & System Files
+desktop.ini
+.vscode/
+node_modules/
+*.log

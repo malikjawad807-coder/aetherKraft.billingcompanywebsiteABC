@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | American Billing Company — Who We Are</title>
+  <meta name="description" content="Learn about American Billing Company. Designed by physicians for physicians, providing concrete medical billing, credentialing, and AR solutions across the United States.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230284c7'><path d='M19 10.5h-4.5V6a1.5 1.5 0 0 0-3 0v4.5H7a1.5 1.5 0 0 0 0 3h4.5V18a1.5 1.5 0 0 0 3 0v-4.5H19a1.5 1.5 0 0 0 0-3z'/></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="top-bar" id="topBar">
+    <div class="container top-bar-content">
+      <div class="top-bar-left">
+        <a href="tel:8005853908" class="contact-pill" title="Call Toll Free">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span><strong>TOLL FREE:</strong> (800) 585-3908</span>
+        </a>
+        <span class="bar-separator">|</span>
+        <span class="contact-pill">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="7" y1="16" x2="11" y2="16"/></svg>
+          <span><strong>FAX:</strong> (208) 323-5078</span>
+        </span>
+        <span class="bar-separator">|</span>
+        <a href="mailto:american@billing.us" class="contact-pill" title="Send Email">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span>american@billing.us</span>
+        </a>
+      </div>
+      
+      <div class="top-bar-right">
+        <a href="index.html#contact" class="top-link">Provider Login</a>
+        <span class="dot-separator">•</span>
+        <a href="index.html#contact" class="top-link">Contact Us</a>
+        <span class="badge-hipaa">
+          <svg class="icon-xs" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          100% HIPAA Compliant
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Main Navigation Bar -->
+  <header class="main-header" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="American Billing Company Home">
+        <div class="logo-mark">
+          <div class="grid-cube c1"></div>
+          <div class="grid-cube c2"></div>
+          <div class="grid-cube c3"></div>
+          <div class="grid-cube c4"></div>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">AMERICAN</span>
+          <span class="brand-sub">BILLING COMPANY</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link active">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a href="services.html" class="nav-link dropdown-toggle">
+              Our Services
+              <svg class="icon-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="services.html#billing" class="dropdown-item">
+                <span class="dropdown-title">Medical Billing</span>
+                <span class="dropdown-desc">Claims submission, scrubbing & payment posting</span>
+              </a>
+              <a href="services.html#credentialing" class="dropdown-item">
+                <span class="dropdown-title">Physician Credentialing</span>
+                <span class="dropdown-desc">Payer enrollment & document management</span>
+              </a>
+              <a href="services.html#ar-management" class="dropdown-item">
+                <span class="dropdown-title">AR Management</span>
+                <span class="dropdown-desc">Aging claims resolution & cash flow recovery</span>
+              </a>
+              <a href="services.html#pms" class="dropdown-item">
+                <span class="dropdown-title">PMS Integration</span>
+                <span class="dropdown-desc">Med-IT Live & multi-EHR clearinghouse sync</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="approach.html" class="nav-link">Our Approach</a></li>
+          <li class="nav-item"><a href="index.html#specialties" class="nav-link">Specialties</a></li>
+          <li class="nav-item"><a href="index.html#calculator" class="nav-link">ROI Calculator</a></li>
+          <li class="nav-item"><a href="index.html#news" class="nav-link">Insights</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html#contact" class="btn btn-primary nav-cta">
+          <span>Get Started Now</span>
+          <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <ul class="mobile-menu">
+        <li><a href="index.html" class="mobile-link">Home</a></li>
+        <li><a href="about.html" class="mobile-link">About Us</a></li>
+        <li><a href="services.html" class="mobile-link">Our Services</a></li>
+        <li><a href="approach.html" class="mobile-link">Our Approach</a></li>
+        <li><a href="index.html#specialties" class="mobile-link">Medical Specialties</a></li>
+        <li><a href="index.html#calculator" class="mobile-link">Revenue Calculator</a></li>
+        <li><a href="index.html#news" class="mobile-link">News & Insights</a></li>
+        <li><a href="index.html#contact" class="mobile-link">Contact Us</a></li>
+      </ul>
+      <div class="mobile-drawer-cta">
+        <a href="index.html#contact" class="btn btn-primary btn-block">Get Started Now</a>
+        <p class="drawer-contact-info">Call Toll-Free: <strong>(800) 585-3908</strong></p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Inner Page Hero Banner -->
+    <section class="inner-hero">
+      <div class="container inner-hero-container reveal-on-scroll">
+        <span class="inner-hero-tag">About American Billing Company</span>
+        <h1 class="inner-hero-title">Who We Are ?</h1>
+        <p class="inner-hero-desc">
+          American Billing Company Has Unleashed The Remarkable Expertise Of Its Medical Billing Experts, Providing Concrete Solutions To Physician Practices.
+        </p>
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>About Us</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: Designed By The Physicians For The Physicians -->
+    <section class="inner-section alt-bg">
+      <div class="container">
+        <div class="two-col-grid">
+          <div class="content-block reveal-on-scroll">
+            <span class="section-tag">Physician-Led Innovation</span>
+            <h2>Designed by the physicians for the physicians</h2>
+            <p>
+              Who can better understand the recurring problems of physician practices than by the physicians themselves? American Billing Company has employed the services of expert physicians and medical billing professionals to design solutions that can best solve the problems faced by the medical practices.
+            </p>
+            <p>
+              Medical billing, credentialing and management of the Account Receivabless are the most common areas, requiring improvement and effective management. American Billing Company focuses its expertise to eliminate issues in the billing and sets free physician practices to uplift the quality of care.
+            </p>
+            <p>
+              We are a professional medical billing company that works as team fully owned by its clients. Physicians trust us for our commitment to provide the best solutions to their problems and keeping them in control of their business.
+            </p>
+            <a href="index.html#contact" class="btn btn-primary mt-3">
+              <span>Get Started</span>
+              <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="visual-block reveal-on-scroll">
+            <div class="about-image-wrapper">
+              <img src="assets/images/team-coders.jpg" alt="American Billing Company specialists and physician consultants" class="about-img">
+              <div class="experience-card glass-card">
+                <span class="exp-title">Client-Centric Ownership</span>
+                <p class="exp-desc">Empowering healthcare providers to stay in complete control of their practice finances.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Our Values -->
+    <section class="inner-section">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Core Principles</span>
+          <h2 class="section-title">Our Values</h2>
+          <p class="section-subtitle">
+            We believe in bringing together the best resources out there and foster a team of professionals which understands the pestering problems of physician practices and are capable of solving them with untiring commitment.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card reveal-on-scroll">
+            <div class="val-icon">🤝</div>
+            <h3>Client Ownership</h3>
+            <p>We work as a dedicated team fully owned by our clients, treating your practice's revenue as if it were our own.</p>
+          </div>
+
+          <div class="value-card reveal-on-scroll">
+            <div class="val-icon">🩺</div>
+            <h3>Physician-Centric</h3>
+            <p>Built by physicians to eliminate recurring administrative bottlenecks, letting clinicians dedicate 100% focus to patient care.</p>
+          </div>
+
+          <div class="value-card reveal-on-scroll">
+            <div class="val-icon">🛡️</div>
+            <h3>Untiring Commitment</h3>
+            <p>Tenacious follow-up with insurance payers, aggressive denial resolution, and continuous fee-schedule verification.</p>
+          </div>
+
+          <div class="value-card reveal-on-scroll">
+            <div class="val-icon">💎</div>
+            <h3>Zero Hidden Fees</h3>
+            <p>No upfront software costs, no unexpected IT charges, and 100% transparent weekly financial statements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: We're The Best Medical Billing Company -->
+    <section class="inner-section alt-bg">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Why We Excel</span>
+          <h2 class="section-title">We're The Best Medical Billing Company</h2>
+          <p class="section-subtitle">
+            Technology alone cannot resolve all the issues and problems that medical practices face every day. Discover how our human expertise elevates your existing infrastructure.
+          </p>
+        </div>
+
+        <div class="two-col-grid">
+          <div class="checklist-card reveal-on-scroll">
+            <div class="checklist-card-header">
+              <div class="checklist-card-icon bg-blue-tint">💻</div>
+              <h3 class="checklist-card-title">Software &amp; Technology Independence</h3>
+            </div>
+            <p class="mb-3 text-slate">
+              Technology alone cannot resolve all the issues and problems that medical practices face every day. No matter how expensive a practice management tool you are using, you could not realize the best outcomes until it is managed by the experts.
+            </p>
+            <p class="text-slate">
+              American Billing Company works independent of any software dependency and medical technologies. We would manage your billing the way you want. We won't ask you to change any tools that you are currently using to manage your practice. Our experts would simply take control of your existing infrastructure and would optimize it to get the best results.
+            </p>
+          </div>
+
+          <div class="checklist-card reveal-on-scroll">
+            <div class="checklist-card-header">
+              <div class="checklist-card-icon bg-cyan-tint">✨</div>
+              <h3 class="checklist-card-title">Customized Specialty Solutions</h3>
+            </div>
+            <p class="mb-3 text-slate">
+              Most of the medical billing companies impose the upfront cost and try to manage the processes their way. American Billing Company uniquely serves physician practices with customized solutions because we understand that every specialty is different from the other and has totally different requirements.
+            </p>
+            <p class="text-slate">
+              This is why we never extend a same solution to every practice. We analyze the processes and give personalized services to physician practices to maximize your collection rate and streamline daily workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Our Team -->
+    <section class="inner-section">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Experienced Specialists</span>
+          <h2 class="section-title">Our Team</h2>
+          <p class="section-subtitle">
+            Our team includes the best medical professionals and billing experts that are capable of managing any medical practice with technology-enabled outreach around the United States.
+          </p>
+        </div>
+
+        <div class="grid-3-col">
+          <div class="feature-card reveal-on-scroll">
+            <div class="card-icon-wrapper bg-blue-tint">
+              <span class="feature-icon">👨‍⚕️</span>
+            </div>
+            <h3 class="card-title">Physician Advisory Panel</h3>
+            <p class="card-text">
+              Practicing clinical advisors who guide documentation compliance, specialty nuances, and clinical necessity validation for complex coding scenarios.
+            </p>
+          </div>
+
+          <div class="feature-card reveal-on-scroll">
+            <div class="card-icon-wrapper bg-cyan-tint">
+              <span class="feature-icon">📑</span>
+            </div>
+            <h3 class="card-title">Certified Coding Specialists</h3>
+            <p class="card-text">
+              AAPC and AHIMA certified professionals fluent in CPT, ICD-10, and HCPCS coding to ensure error-free submissions and 99% clean first-pass rates.
+            </p>
+          </div>
+
+          <div class="feature-card reveal-on-scroll">
+            <div class="card-icon-wrapper bg-green-tint">
+              <span class="feature-icon">📈</span>
+            </div>
+            <h3 class="card-title">Attentive AR Managers</h3>
+            <p class="card-text">
+              Dedicated accounts receivable specialists tracking aging claims daily, resolving denials, and expediting insurance payer reimbursements.
+            </p>
+          </div>
+        </div>
+
+        <!-- Partnership Callout -->
+        <div class="partner-callout glass-card text-center mt-4 reveal-on-scroll" style="padding: 32px; margin-top: 48px;">
+          <span class="section-tag">Strategic Technology Alliance</span>
+          <h3 style="font-size: 1.5rem; margin-bottom: 12px; color: var(--primary-navy);">
+            American Billing Company &amp; Med-IT Live (Medical Intuition Technologies)
+          </h3>
+          <p style="max-width: 780px; margin: 0 auto; color: var(--text-slate); font-size: 0.95rem; line-height: 1.65;">
+            Through our strategic partnership with Medical Intuition Technologies, providers gain access to seamless integration with Med-IT Live Practice Management Software (PMS), optimizing clinical workflow, scheduling, and billing into one synchronized ecosystem.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-Footer Contact Hub -->
+    <section class="section-pre-footer">
+      <div class="container">
+        <div class="contact-hub-grid">
+          <div class="hub-card reveal-on-scroll">
+            <div class="hub-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg>
+            </div>
+            <div class="hub-card-info">
+              <h4 class="hub-card-title">Corporate Headquarters</h4>
+              <p class="hub-card-text">American Billing Company, Nationwide Operational Support</p>
+              <span class="hub-card-meta">Serving Practices Across All 50 States</span>
+            </div>
+          </div>
+
+          <div class="hub-card reveal-on-scroll">
+            <div class="hub-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div class="hub-card-info">
+              <h4 class="hub-card-title">Revenue Cycle Operations</h4>
+              <p class="hub-card-text">Certified Medical Coding, Scrubbing &amp; Payer Credentialing Division</p>
+              <span class="hub-card-meta">HIPAA Tier-4 Encrypted Processing Center</span>
+            </div>
+          </div>
+
+          <div class="hub-card reveal-on-scroll">
+            <div class="hub-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="hub-card-info">
+              <h4 class="hub-card-title">General Inquiries</h4>
+              <p class="hub-card-text">
+                <strong>Phone:</strong> <a href="tel:8005853908">(800) 585-3908</a><br>
+                <strong>Fax:</strong> (208) 323-5078<br>
+                <strong>Email:</strong> <a href="mailto:american@billing.us">american@billing.us</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Corporate Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content-grid">
+      <div class="footer-col about-col">
+        <div class="brand-logo mb-3">
+          <div class="logo-mark">
+            <div class="grid-cube c1"></div>
+            <div class="grid-cube c2"></div>
+            <div class="grid-cube c3"></div>
+            <div class="grid-cube c4"></div>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name text-white">AMERICAN</span>
+            <span class="brand-sub text-teal">BILLING COMPANY</span>
+          </div>
+        </div>
+        <p class="footer-text">
+          American Billing Company is a best-in-class medical billing services provider. Our goal is to serve our clients with exceptional work experience while helping them succeed at every step with certified coding, credentialing, and revenue cycle authority.
+        </p>
+        <div class="footer-social-links">
+          <a href="#" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0 0-3.28 1.64 1.64 0 0 0 0 3.28m1.4 9.74v-8.37H5.06v8.37h2.8z"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.05c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04c-5.5 0-10 4.49-10 10.02 0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89 1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#credentialing">Provider Enrollment &amp; Credentialing</a></li>
+          <li><a href="services.html#billing">Medical Billing &amp; Coding Services</a></li>
+          <li><a href="services.html#billing">Healthcare Revenue Cycle Management</a></li>
+          <li><a href="services.html#ar-management">Account Receivables (AR) Recovery</a></li>
+          <li><a href="services.html#billing">Claim Scrubbing &amp; Denial Resolution</a></li>
+          <li><a href="services.html#billing">Intelligent Analytics &amp; Cash Flow Reporting</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Solutions &amp; Tech</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#pms">Med-IT Live PMS Integration</a></li>
+          <li><a href="services.html#pms">Electronic Health Record (EHR) Bridge</a></li>
+          <li><a href="index.html#calculator">Practice Cash Flow Estimator</a></li>
+          <li><a href="index.html#security">HIPAA Data Protection Suite</a></li>
+          <li><a href="services.html#billing">24-Hour Fast Track Submission</a></li>
+          <li><a href="about.html">Practice Assessment Audit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="approach.html">Our Approach</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="index.html#specialties">Specialties Served</a></li>
+          <li><a href="index.html#testimonials">Testimonials</a></li>
+          <li><a href="index.html#contact">Contact &amp; Book Demo</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <p class="copyright-text">
+          &copy; 2026 American Billing Company. All Rights Reserved. HIPAA Compliant.
+        </p>
+        <div class="legal-links">
+          <a href="index.html#contact">Privacy Policy</a>
+          <span class="bar-separator">•</span>
+          <a href="index.html#contact">Terms of Use</a>
+          <span class="bar-separator">•</span>
+          <a href="index.html#security">HIPAA Statement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Assistant Widget -->
+  <div class="floating-assistant-widget" id="assistantWidget">
+    <div class="chat-popup" id="chatPopup" aria-hidden="true">
+      <div class="chat-popup-header">
+        <div class="agent-avatar">
+          <span class="avatar-img">👩‍💼</span>
+          <span class="online-indicator"></span>
+        </div>
+        <div class="agent-info">
+          <span class="agent-name">American Billing Assistant</span>
+          <span class="agent-status">Online • Ready to Help</span>
+        </div>
+        <button class="chat-close-btn" id="closeChatBtn" aria-label="Close Assistant">✕</button>
+      </div>
+
+      <div class="chat-popup-body" id="chatMessages">
+        <div class="chat-msg bot">
+          <p>Hi, How can I help you? I'm your American Billing Company AI assistant for medical billing, physician credentialing, RCM, and cash flow optimization.</p>
+        </div>
+
+        <div class="chat-quick-prompts">
+          <button class="prompt-chip" data-answer="American Billing Company is designed by physicians for physicians. We provide certified medical coding, claim scrubbing, credentialing, and aging AR management with zero upfront cost.">
+            What makes American Billing Company unique?
+          </button>
+          <button class="prompt-chip" data-answer="We work independent of software dependency! You can keep your existing EHR or PMS tool, or integrate with Med-IT Live, and our experts optimize your infrastructure.">
+            Do I need to change my EHR software?
+          </button>
+          <button class="prompt-chip" data-answer="Yes, our team handles CAQH registration, NPI enrollment, Medicare group contracting, and document tracking to eliminate delays.">
+            How does physician credentialing work?
+          </button>
+          <button class="prompt-chip" data-answer="You can schedule a free practice assessment directly through our contact form, call (800) 585-3908, or email american@billing.us!">
+            How do I get started?
+          </button>
+        </div>
+      </div>
+
+      <div class="chat-popup-footer">
+        <div class="chat-input-wrapper">
+          <input type="text" id="chatInput" placeholder="Ask a question about billing..." aria-label="Ask a question">
+          <button id="sendChatBtn" aria-label="Send message">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <button class="assistant-pill-badge" id="openChatBtn" aria-label="Open American Billing Assistant">
+      <div class="badge-avatar-wrap">
+        <span class="avatar-pic">👩‍💼</span>
+        <span class="status-dot"></span>
+      </div>
+      <div class="badge-pill-text">
+        <span class="pill-top">Hi, How can I help you?</span>
+        <span class="pill-bottom">Your American Billing AI Assistant • <strong class="text-online">Online</strong></span>
+      </div>
+    </button>
+  </div>
+
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | American Billing Company — Medical Billing, Credentialing &amp; AR</title>
+  <meta name="description" content="Explore American Billing Company's all-inclusive medical billing, physician credentialing, and aging AR management services for medical practices nationwide.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230284c7'><path d='M19 10.5h-4.5V6a1.5 1.5 0 0 0-3 0v4.5H7a1.5 1.5 0 0 0 0 3h4.5V18a1.5 1.5 0 0 0 3 0v-4.5H19a1.5 1.5 0 0 0 0-3z'/></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="top-bar" id="topBar">
+    <div class="container top-bar-content">
+      <div class="top-bar-left">
+        <a href="tel:8005853908" class="contact-pill" title="Call Toll Free">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span><strong>TOLL FREE:</strong> (800) 585-3908</span>
+        </a>
+        <span class="bar-separator">|</span>
+        <span class="contact-pill">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="7" y1="16" x2="11" y2="16"/></svg>
+          <span><strong>FAX:</strong> (208) 323-5078</span>
+        </span>
+        <span class="bar-separator">|</span>
+        <a href="mailto:american@billing.us" class="contact-pill" title="Send Email">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span>american@billing.us</span>
+        </a>
+      </div>
+      
+      <div class="top-bar-right">
+        <a href="index.html#contact" class="top-link">Provider Login</a>
+        <span class="dot-separator">•</span>
+        <a href="index.html#contact" class="top-link">Contact Us</a>
+        <span class="badge-hipaa">
+          <svg class="icon-xs" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          100% HIPAA Compliant
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Main Navigation Bar -->
+  <header class="main-header" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="American Billing Company Home">
+        <div class="logo-mark">
+          <div class="grid-cube c1"></div>
+          <div class="grid-cube c2"></div>
+          <div class="grid-cube c3"></div>
+          <div class="grid-cube c4"></div>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">AMERICAN</span>
+          <span class="brand-sub">BILLING COMPANY</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a href="services.html" class="nav-link dropdown-toggle active">
+              Our Services
+              <svg class="icon-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="#billing" class="dropdown-item">
+                <span class="dropdown-title">Medical Billing</span>
+                <span class="dropdown-desc">Claims submission, scrubbing & payment posting</span>
+              </a>
+              <a href="#credentialing" class="dropdown-item">
+                <span class="dropdown-title">Physician Credentialing</span>
+                <span class="dropdown-desc">Payer enrollment & document management</span>
+              </a>
+              <a href="#ar-management" class="dropdown-item">
+                <span class="dropdown-title">AR Management</span>
+                <span class="dropdown-desc">Aging claims resolution & cash flow recovery</span>
+              </a>
+              <a href="#pms" class="dropdown-item">
+                <span class="dropdown-title">PMS Integration</span>
+                <span class="dropdown-desc">Med-IT Live & multi-EHR clearinghouse sync</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="approach.html" class="nav-link">Our Approach</a></li>
+          <li class="nav-item"><a href="index.html#specialties" class="nav-link">Specialties</a></li>
+          <li class="nav-item"><a href="index.html#calculator" class="nav-link">ROI Calculator</a></li>
+          <li class="nav-item"><a href="index.html#news" class="nav-link">Insights</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary nav-cta">
+          <span>Get Started Now</span>
+          <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <ul class="mobile-menu">
+        <li><a href="index.html" class="mobile-link">Home</a></li>
+        <li><a href="about.html" class="mobile-link">About Us</a></li>
+        <li><a href="services.html" class="mobile-link">Our Services</a></li>
+        <li><a href="approach.html" class="mobile-link">Our Approach</a></li>
+        <li><a href="index.html#specialties" class="mobile-link">Medical Specialties</a></li>
+        <li><a href="index.html#calculator" class="mobile-link">Revenue Calculator</a></li>
+        <li><a href="index.html#news" class="mobile-link">News & Insights</a></li>
+        <li><a href="index.html#contact" class="mobile-link">Contact Us</a></li>
+      </ul>
+      <div class="mobile-drawer-cta">
+        <a href="#contact" class="btn btn-primary btn-block">Get Started Now</a>
+        <p class="drawer-contact-info">Call Toll-Free: <strong>(800) 585-3908</strong></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Quick Sticky Services Jump Sub-Nav -->
+  <div class="services-nav-bar">
+    <div class="container services-nav-inner">
+      <a href="#billing" class="service-jump-btn">01. Medical Billing</a>
+      <a href="#credentialing" class="service-jump-btn">02. Physician Credentialing</a>
+      <a href="#ar-management" class="service-jump-btn">03. AR Management</a>
+      <a href="#pms" class="service-jump-btn">04. Med-IT Live PMS</a>
+      <a href="#contact" class="service-jump-btn">Consultation Form</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Inner Hero -->
+    <section class="inner-hero">
+      <div class="container inner-hero-container reveal-on-scroll">
+        <span class="inner-hero-tag">All-Inclusive Healthcare Revenue Cycle</span>
+        <h1 class="inner-hero-title">Our Services</h1>
+        <p class="inner-hero-desc">
+          With American Billing Company's proficient team, top-notch medical billing service, credentialing and Account Receivables solutions, you will be in complete control of all clinical and financial processes.
+        </p>
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Our Services</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DIVISION 1: MEDICAL BILLING (from our services billing.pdf)
+         ============================================================ -->
+    <section class="service-detail-block" id="billing">
+      <div class="container">
+        <div class="service-block-header text-center reveal-on-scroll">
+          <span class="section-tag">Pending Payments &amp; Low Collections?</span>
+          <h2 class="section-title">The American Billing Company</h2>
+          <p class="section-subtitle">
+            Is Here To Help You With Managed Billing, Credentialing, Coding, Claim Scrubbing, Insurance Verification, Claim Submission, Charge Entry, Payment Posting, Patient Statements And Practice Reporting.
+          </p>
+        </div>
+
+        <!-- 4 Core Pillars -->
+        <div class="grid-4-col">
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">💵</div>
+            <h3 class="benefit-title">Affordable Solution</h3>
+            <p class="benefit-desc">
+              The most affordable medical billing solution for physician practices, giving them the maximum return on their labors.
+            </p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">👨‍⚕️</div>
+            <h3 class="benefit-title">Expert Team</h3>
+            <p class="benefit-desc">
+              Certified medical coding &amp; billing team that meticulously serves physician practices at every scale.
+            </p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">🔄</div>
+            <h3 class="benefit-title">Managed Billing</h3>
+            <p class="benefit-desc">
+              Our all-inclusive medical billing service would successfully close the revenue cycle, setting you free to serve your patients.
+            </p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">⚡</div>
+            <h3 class="benefit-title">Fast Processes</h3>
+            <p class="benefit-desc">
+              From claim preparation to claim submission, we make sure that all the processes execute at optimized speed.
+            </p>
+          </div>
+        </div>
+
+        <!-- 6 Specialized Functional Areas -->
+        <div class="modules-grid-6">
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">CODING &amp; CHARGE ENTRY</h4>
+            </div>
+            <p class="module-desc">Certified CPT &amp; ICD coding specialists accurately assign the appropriate charge according to the codes.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">CLAIM SCRUBBING</h4>
+            </div>
+            <p class="module-desc">Claim scrubbing that guarantees 100% clean claims, accurate billing and removal of errors before submission.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">CLAIM SUBMISSION</h4>
+            </div>
+            <p class="module-desc">Electronic submission of clean claims to insurance companies, faster processing and maximum acceptance.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">PAYMENT POSTING</h4>
+            </div>
+            <p class="module-desc">Real time payment posting along with proper analysis of the explanation report and track of outstanding dues.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">PATIENT STATEMENTS</h4>
+            </div>
+            <p class="module-desc">Patient statements with summaries including accurate entry of outstanding balances and previous payment.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">PRACTICE REPORTING</h4>
+            </div>
+            <p class="module-desc">Daily, weekly and monthly reports to keep practices updated on the cash flow status and total AR review.</p>
+          </div>
+        </div>
+
+        <!-- 3-Step Process: How We Do It -->
+        <div class="section-header text-center mt-4 reveal-on-scroll">
+          <span class="section-tag">How We Do It?</span>
+          <h3 class="section-title">Our Process</h3>
+        </div>
+
+        <div class="process-flow-grid">
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">We Prepare Clean Claims</span>
+            <h4>Claim Submission</h4>
+            <p>Our certified medical coding &amp; billing experts prepare clean claims, double check it for inaccuracies, eliminate errors and successfully submit it.</p>
+          </div>
+
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">We Follow-Up</span>
+            <h4>Claim Tracking</h4>
+            <p>Our medical billing team keeps track of every claim submitted with AR aging reports and quickly responds if anything is further required by the payers.</p>
+          </div>
+
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">We Post</span>
+            <h4>Billing Reports</h4>
+            <p>Our finance department posts payments, creates periodic reports of the cash flow and updates physician practices with real time insight and analytics.</p>
+          </div>
+        </div>
+
+        <!-- Numbers Speak For Themselves Banner -->
+        <div class="stats-banner-card reveal-on-scroll">
+          <div class="stats-banner-grid">
+            <div class="stats-banner-text">
+              <span class="section-tag" style="background: rgba(255,255,255,0.1); color: #ffffff; border-color: rgba(255,255,255,0.2);">Every Dollar Counts</span>
+              <h3>NUMBERS SPEAK FOR THEMSELVES</h3>
+              <p>Connect with the American Billing Company and never miss your revenue targets. We would make sure that you have received every dollar deemed to repay for the services you have rendered.</p>
+            </div>
+            <div class="stats-banner-numbers">
+              <div class="stat-item-box">
+                <div class="stat-item-num">100%</div>
+                <div class="stat-item-lbl">Positive ROI</div>
+              </div>
+              <div class="stat-item-box">
+                <div class="stat-item-num">40%</div>
+                <div class="stat-item-lbl">Cost Reduction</div>
+              </div>
+              <div class="stat-item-box">
+                <div class="stat-item-num">150%</div>
+                <div class="stat-item-lbl">Productivity Gains</div>
+              </div>
+              <div class="stat-item-box">
+                <div class="stat-item-num">99%</div>
+                <div class="stat-item-lbl">Claim Acceptance Rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial Quote: Dr. Alex Reeve -->
+        <div style="max-width: 800px; margin: 32px auto 0;" class="reveal-on-scroll">
+          <div class="testimonial-card glass-card" style="padding: 36px;">
+            <div class="quote-stars">★★★★★</div>
+            <p class="quote-text">
+              "American Billing Company is the best medical billing services provider. It has been an amazing working experience with the team ABC. I got timely updates on payments, flawless claim handling and an outstanding support team working meticulously."
+            </p>
+            <div class="quote-author">
+              <div class="author-avatar">AR</div>
+              <div>
+                <strong class="author-name">Dr. Alex Reeve</strong>
+                <span class="author-title">Chiropractor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DIVISION 2: PHYSICIAN CREDENTIALING (from Credentialing.pdf)
+         ============================================================ -->
+    <section class="service-detail-block" id="credentialing">
+      <div class="container">
+        <div class="service-block-header text-center reveal-on-scroll">
+          <span class="section-tag">Credentialing — A Complex Process?</span>
+          <h2 class="section-title">Simplifying Physician Credentialing</h2>
+          <p class="section-subtitle">
+            Without Successful Credentialing, Reimbursements Of A Medical Practice Can Be Delayed Or Even Denied. It's A Long Cumbersome Process But We Can Take The Burden Of This Weighty Task From Physician Practices And Make It Fast, Smooth And Easier With Our Expertise.
+          </p>
+        </div>
+
+        <!-- 4 Credentialing Pillars -->
+        <div class="grid-4-col">
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">☁️</div>
+            <h3 class="benefit-title">Smart Processing</h3>
+            <p class="benefit-desc">With automated processes, and cloud enabled technologies, we are offering a smarter physician credentialing service.</p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">🎖️</div>
+            <h3 class="benefit-title">Credentialing Experts</h3>
+            <p class="benefit-desc">A team of expert credentialing specialists and consultants has been providing centralized credentialing service to practices.</p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">🔍</div>
+            <h3 class="benefit-title">Double Check Accuracy</h3>
+            <p class="benefit-desc">Our experts double check each document for accuracy which reduces any delays caused by an incomplete dossier.</p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">📋</div>
+            <h3 class="benefit-title">Process Tracking</h3>
+            <p class="benefit-desc">We maintain a checklist of documents, important dates, and properly follow up every application to keep track of the process.</p>
+          </div>
+        </div>
+
+        <!-- 5 Specialized Credentialing Capabilities -->
+        <div class="modules-grid-6">
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">CAQH REGISTRATION</h4>
+            </div>
+            <p class="module-desc">Our credentialing experts will help you register with CAQH by filing your details, reviewing it and attesting its accuracy.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">NPI REGISTRATION</h4>
+            </div>
+            <p class="module-desc">Giving physicians a nationwide identity by helping them register with the National Provider Identifier (NPI).</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">MEDICARE ENROLLMENT FOR GROUPS</h4>
+            </div>
+            <p class="module-desc">Medicare enrollment for physician practice groups, laboratories, paramedics, hospitals and large volume of applicants.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">MANAGEMENT OF ALL CREDENTIALS</h4>
+            </div>
+            <p class="module-desc">We manage all types of credentialing including commercial and government payers and keep your information updated.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">FAST-TRACK MEDICARE</h4>
+            </div>
+            <p class="module-desc">We provide physicians, assistants, nurses, or any other healthcare provider the fastest way to enroll with Medicare.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">RE-CREDENTIALING &amp; ATTESTATIONS</h4>
+            </div>
+            <p class="module-desc">Proactive date-stamped alerts to ensure license expirations and re-attestation windows never lapse.</p>
+          </div>
+        </div>
+
+        <!-- 3-Phase Verification Workflow -->
+        <div class="process-flow-grid">
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">Phase 01</span>
+            <h4>Document Collection</h4>
+            <p>We collect all the required documents including educational certificates, experience, current CV, state licensure information and current address.</p>
+          </div>
+
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">Phase 02</span>
+            <h4>CAQH Database Sync</h4>
+            <p>All the payers and insurance companies crosscheck your credentials with CAQH database. So, we make sure that your information with CAQH is up-to-date.</p>
+          </div>
+
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">Phase 03</span>
+            <h4>Comprehensive Tracking</h4>
+            <p>We keep track of the application progress with a comprehensive checklist of dates, in order to make sure that you get enrolled without any delay.</p>
+          </div>
+        </div>
+
+        <!-- Checklist Box & Testimonial -->
+        <div class="two-col-grid mt-4">
+          <div class="checklist-card reveal-on-scroll">
+            <div class="checklist-card-header">
+              <div class="checklist-card-icon bg-cyan-tint">📝</div>
+              <h3 class="checklist-card-title">Our Credentialing Services Include:</h3>
+            </div>
+            <ul class="custom-checklist">
+              <li><span class="check-badge">✓</span> <span>Credentialing and re-credentialing tracking</span></li>
+              <li><span class="check-badge">✓</span> <span>Accuracy and timeliness check</span></li>
+              <li><span class="check-badge">✓</span> <span>Continuous application status updates</span></li>
+              <li><span class="check-badge">✓</span> <span>Dedicated credentialing specialist assigned to your office</span></li>
+              <li><span class="check-badge">✓</span> <span>NPI enrollment and taxonomy verification</span></li>
+              <li><span class="check-badge">✓</span> <span>CAQH profile maintenance and re-attestation</span></li>
+              <li><span class="check-badge">✓</span> <span>Commercial, Medicare, and Medicaid payer contracting</span></li>
+            </ul>
+          </div>
+
+          <div class="reveal-on-scroll">
+            <div class="testimonial-card glass-card" style="padding: 36px; height: 100%; display: flex; flex-direction: column; justify-content: center;">
+              <div class="quote-stars">★★★★★</div>
+              <p class="quote-text" style="font-size: 1.05rem;">
+                "A hassle-free experience of credentialing. The dedicated credentialing specialist guided me very clearly, prepared a clean application and I was amazed with the results. Experts in credentialing."
+              </p>
+              <div class="quote-author">
+                <div class="author-avatar">DK</div>
+                <div>
+                  <strong class="author-name">Dr. Kenneth</strong>
+                  <span class="author-title">MD - New York</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DIVISION 3: ACCOUNTS RECEIVABLE (from account receivable.pdf)
+         ============================================================ -->
+    <section class="service-detail-block" id="ar-management">
+      <div class="container">
+        <div class="service-block-header text-center reveal-on-scroll">
+          <span class="section-tag">AR Greater Than 120 Days?</span>
+          <h2 class="section-title">Managing Account Receivables For Financial Success</h2>
+          <p class="section-subtitle">
+            Good Management Of Your Account Receivables Is A Must To Keep The Financial Health Of A Medical Practice On Track. Get A Clear Picture Of Your Cash Flow, Financial Statements And Aging Accounts.
+          </p>
+        </div>
+
+        <!-- 4 AR Pillars -->
+        <div class="grid-4-col">
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">📈</div>
+            <h3 class="benefit-title">Increased Cash Flow</h3>
+            <p class="benefit-desc">Account Receivables management service that has been specifically designed to increase the cash flow of physician practices.</p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">⚡</div>
+            <h3 class="benefit-title">Faster Collections</h3>
+            <p class="benefit-desc">Our efficient AR system keeps track of every invoice, outstanding payments and your earnings would never fall through the cracks.</p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">🎯</div>
+            <h3 class="benefit-title">Improved Productivity</h3>
+            <p class="benefit-desc">You don’t have to worry about financial management because we would assist you and teach your staff AR management.</p>
+          </div>
+
+          <div class="benefit-card reveal-on-scroll">
+            <div class="benefit-icon-circle">⏱️</div>
+            <h3 class="benefit-title">Daily Aging Track</h3>
+            <p class="benefit-desc">We would classify pending bills with date tags to make sure that no payment claim is too old to get paid by the payers.</p>
+          </div>
+        </div>
+
+        <!-- 4 AR Focus Modules -->
+        <div class="two-col-grid mt-4">
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">PATIENT STATEMENTS</h4>
+            </div>
+            <p class="module-desc">Bill your patients efficiently and get returns without any delay. Lowest pending payments and patient deductibles with clear, easy-to-read billing statements.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">MANAGING AR WITH PATIENTS &amp; INSURANCES</h4>
+            </div>
+            <p class="module-desc">Effective management of all Account Receivables with patients and insurance companies to increase your revenue and resolve outstanding balances.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">INSURANCE RESOLUTION</h4>
+            </div>
+            <p class="module-desc">Stop worrying about aging receivables and denied payments, our AR management service will report all the money owed and aggressively follow up.</p>
+          </div>
+
+          <div class="module-card reveal-on-scroll">
+            <div class="module-header">
+              <span class="module-icon-sm">✓</span>
+              <h4 class="module-title">AR REPORTS &amp; BALANCE STATEMENTS</h4>
+            </div>
+            <p class="module-desc">Monthly AR reports and balance statements will help you get a clear picture of your practice’s financial health and cash flow progression.</p>
+          </div>
+        </div>
+
+        <!-- 3-Step Aging Resolution Strategy -->
+        <div class="process-flow-grid mt-4">
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">Step 01</span>
+            <h4>Outstanding Claims Tracking</h4>
+            <p>We track all outstanding bills and pending payments whether they are due with insurance companies or unpaid by the patients.</p>
+          </div>
+
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">Step 02</span>
+            <h4>Organized Follow-Up</h4>
+            <p>An organized follow-up strategy helps to reduce the payment denials. We check through the reasons and follow up after fixing the reasons.</p>
+          </div>
+
+          <div class="process-step-box reveal-on-scroll">
+            <span class="process-step-pill">Step 03</span>
+            <h4>30-60-90-120+ Aging Breakdown</h4>
+            <p>We classify AR aging in 30-60-90-120+ days, and post the reports to clearly make you understand the financial health of your practice.</p>
+          </div>
+        </div>
+
+        <!-- AR Checklist -->
+        <div class="checklist-card reveal-on-scroll mt-4">
+          <div class="checklist-card-header">
+            <div class="checklist-card-icon bg-green-tint">📊</div>
+            <h3 class="checklist-card-title">Stay In Control Of Your Practice Finances</h3>
+          </div>
+          <p class="mb-3 text-slate">Analyze your AR reports and take informed decisions to calibrate the way you practice:</p>
+          <div class="form-row">
+            <ul class="custom-checklist">
+              <li><span class="check-badge">✓</span> <span>Patient statements and clear balance breakdowns</span></li>
+              <li><span class="check-badge">✓</span> <span>Insurance and patient AR management</span></li>
+              <li><span class="check-badge">✓</span> <span>Time-stamped AR follow-ups on delinquent accounts</span></li>
+            </ul>
+            <ul class="custom-checklist">
+              <li><span class="check-badge">✓</span> <span>Patient deductibles and copay reporting</span></li>
+              <li><span class="check-badge">✓</span> <span>Prompt insurance resolutions and claim re-submissions</span></li>
+              <li><span class="check-badge">✓</span> <span>Aggressive denial management and appeal filing</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DIVISION 4: MED-IT LIVE PMS (Partnership)
+         ============================================================ -->
+    <section class="service-detail-block" id="pms">
+      <div class="container">
+        <div class="two-col-grid">
+          <div class="content-block reveal-on-scroll">
+            <span class="section-tag">Strategic Technology Partnership</span>
+            <h2>Med-IT Live PMS &amp; Clinical Integration</h2>
+            <p>
+              We have entered into a strategic partnership with Medical Intuition Technologies, a provider of Practice Management Software (PMS) Med-IT Live.
+            </p>
+            <p>
+              Med-IT Live will integrate with our medical billing and claim processing solutions to help clients optimize their clinical workflow with an improved billing and practice management system. This is a significant partnership for the two companies, leveraging unprecedented benefits for the clients allowing them to provide healthcare services with a more robust suite of Practice Management (PM) tools and advanced technologies.
+            </p>
+            <p>
+              Best of all: <strong>We won't charge you for installing and integrating our systems with your existing setup.</strong>
+            </p>
+            <a href="#contact" class="btn btn-primary mt-3">
+              <span>Schedule PMS Consultation</span>
+              <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="visual-block reveal-on-scroll">
+            <div class="partner-callout glass-card" style="padding: 36px;">
+              <span class="partner-tag">Medical Intuition Technologies</span>
+              <h3 style="font-size: 1.35rem; color: var(--primary-navy); margin-bottom: 12px;">Med-IT Live PMS Engine</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
+                Direct clearinghouse integration, automated eligibility checks, electronic remittance advice (ERA), and customizable clinical scheduling.
+              </p>
+              <div class="sync-grid">
+                <div class="sync-tile"><span class="sync-icon">🔄</span><span>Real-Time Sync</span></div>
+                <div class="sync-tile"><span class="sync-icon">⚡</span><span>Instant Claims</span></div>
+                <div class="sync-tile"><span class="sync-icon">🔒</span><span>256-Bit HIPAA</span></div>
+                <div class="sync-tile"><span class="sync-icon">📊</span><span>Cash Analytics</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         LEAD CAPTURE FORM SECTION
+         ============================================================ -->
+    <section class="section-contact" id="contact">
+      <div class="container">
+        <div class="contact-split-grid">
+          <div class="contact-pitch reveal-on-scroll">
+            <h2 class="pitch-title">
+              Ready To Improve Your Billing <br>
+              <span class="text-gradient">&amp; Increase Collections?</span>
+            </h2>
+            <p class="pitch-subtitle">
+              Connect with American Billing Company and never miss your revenue targets. We make sure that you have received every dollar deemed to repay for the services you have rendered.
+            </p>
+
+            <div class="pitch-benefits-list">
+              <div class="p-benefit-item">
+                <div class="p-icon">✓</div>
+                <div>
+                  <h4 class="p-title">100% Positive ROI</h4>
+                  <p class="p-desc">Our clients realize immediate collection growth with zero upfront investment.</p>
+                </div>
+              </div>
+
+              <div class="p-benefit-item">
+                <div class="p-icon">✓</div>
+                <div>
+                  <h4 class="p-title">40% Cost Reduction</h4>
+                  <p class="p-desc">Eliminate in-house billing overhead, training expenses, and clearinghouse fees.</p>
+                </div>
+              </div>
+
+              <div class="p-benefit-item">
+                <div class="p-icon">✓</div>
+                <div>
+                  <h4 class="p-title">99% Claim Acceptance</h4>
+                  <p class="p-desc">Rigorous pre-submission scrubbing prevents denials and payment delays.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pitch-phone-callout">
+              <span>Have immediate questions? Speak directly to our specialists:</span>
+              <div class="pitch-contact-row">
+                <a href="tel:8005853908" class="pitch-phone-link">
+                  <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  Toll Free: (800) 585-3908
+                </a>
+                <a href="mailto:american@billing.us" class="pitch-email-link">
+                  <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  american@billing.us
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card glass-card reveal-on-scroll">
+            <h3 class="form-card-title">Book a Demo</h3>
+            <p class="form-card-sub">Request your free practice assessment &amp; billing audit.</p>
+
+            <form id="leadCaptureForm" class="lead-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Your Name <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter Your Name" required>
+                    <span class="field-icon">👤</span>
+                  </div>
+                  <span class="error-msg" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Your Email <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    <span class="field-icon">✉️</span>
+                  </div>
+                  <span class="error-msg" id="emailError"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <input type="tel" id="phone" name="phone" placeholder="Enter Your Number" required>
+                    <span class="field-icon">📞</span>
+                  </div>
+                  <span class="error-msg" id="phoneError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="practiceName">Practice Name</label>
+                  <div class="input-with-icon">
+                    <input type="text" id="practiceName" name="practiceName" placeholder="Practice Name">
+                    <span class="field-icon">🏥</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="serviceInterest">Service of Interest</label>
+                <select id="serviceInterest" name="serviceInterest">
+                  <option value="All-Inclusive Medical Billing">All-Inclusive Medical Billing</option>
+                  <option value="Physician Credentialing">Physician Credentialing</option>
+                  <option value="Aging AR Recovery">Aging AR Recovery (>120 Days)</option>
+                  <option value="Med-IT Live PMS Integration">Med-IT Live PMS Integration</option>
+                  <option value="Full Practice Audit">Comprehensive Practice Audit</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message (Optional)</label>
+                <div class="input-with-icon textarea-wrap">
+                  <textarea id="message" name="message" rows="4" placeholder="Tell us about your current billing challenges or practice size..."></textarea>
+                  <span class="field-icon">💬</span>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-submit" id="submitBtn">
+                <span>SUBMIT DEMO REQUEST</span>
+                <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </button>
+
+              <div class="form-privacy-note">
+                <svg class="icon-xs" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                <span>HIPAA Encrypted &amp; Confidential. We never share your data.</span>
+              </div>
+            </form>
+
+            <div class="form-success-card" id="formSuccess">
+              <div class="success-icon">✓</div>
+              <h3>Demo Request Received!</h3>
+              <p>Thank you for connecting with American Billing Company. One of our certified billing consultants will reach out to you within 24 business hours.</p>
+              <button class="btn btn-secondary mt-3" id="resetFormBtn">Send Another Inquiry</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-Footer Contact Hub -->
+    <section class="section-pre-footer">
+      <div class="container">
+        <div class="contact-hub-grid">
+          <div class="hub-card reveal-on-scroll">
+            <div class="hub-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg>
+            </div>
+            <div class="hub-card-info">
+              <h4 class="hub-card-title">Corporate Headquarters</h4>
+              <p class="hub-card-text">American Billing Company, Nationwide Operational Support</p>
+              <span class="hub-card-meta">Serving Practices Across All 50 States</span>
+            </div>
+          </div>
+
+          <div class="hub-card reveal-on-scroll">
+            <div class="hub-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div class="hub-card-info">
+              <h4 class="hub-card-title">Revenue Cycle Operations</h4>
+              <p class="hub-card-text">Certified Medical Coding, Scrubbing &amp; Payer Credentialing Division</p>
+              <span class="hub-card-meta">HIPAA Tier-4 Encrypted Processing Center</span>
+            </div>
+          </div>
+
+          <div class="hub-card reveal-on-scroll">
+            <div class="hub-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="hub-card-info">
+              <h4 class="hub-card-title">General Inquiries</h4>
+              <p class="hub-card-text">
+                <strong>Phone:</strong> <a href="tel:8005853908">(800) 585-3908</a><br>
+                <strong>Fax:</strong> (208) 323-5078<br>
+                <strong>Email:</strong> <a href="mailto:american@billing.us">american@billing.us</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Corporate Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content-grid">
+      <div class="footer-col about-col">
+        <div class="brand-logo mb-3">
+          <div class="logo-mark">
+            <div class="grid-cube c1"></div>
+            <div class="grid-cube c2"></div>
+            <div class="grid-cube c3"></div>
+            <div class="grid-cube c4"></div>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name text-white">AMERICAN</span>
+            <span class="brand-sub text-teal">BILLING COMPANY</span>
+          </div>
+        </div>
+        <p class="footer-text">
+          American Billing Company is a best-in-class medical billing services provider. Our goal is to serve our clients with exceptional work experience while helping them succeed at every step with certified coding, credentialing, and revenue cycle authority.
+        </p>
+        <div class="footer-social-links">
+          <a href="#" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0 0-3.28 1.64 1.64 0 0 0 0 3.28m1.4 9.74v-8.37H5.06v8.37h2.8z"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.05c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04c-5.5 0-10 4.49-10 10.02 0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89 1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Services</h4>
+        <ul class="footer-links">
+          <li><a href="#credentialing">Provider Enrollment &amp; Credentialing</a></li>
+          <li><a href="#billing">Medical Billing &amp; Coding Services</a></li>
+          <li><a href="#billing">Healthcare Revenue Cycle Management</a></li>
+          <li><a href="#ar-management">Account Receivables (AR) Recovery</a></li>
+          <li><a href="#billing">Claim Scrubbing &amp; Denial Resolution</a></li>
+          <li><a href="#billing">Intelligent Analytics &amp; Cash Flow Reporting</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Solutions &amp; Tech</h4>
+        <ul class="footer-links">
+          <li><a href="#pms">Med-IT Live PMS Integration</a></li>
+          <li><a href="#pms">Electronic Health Record (EHR) Bridge</a></li>
+          <li><a href="index.html#calculator">Practice Cash Flow Estimator</a></li>
+          <li><a href="index.html#security">HIPAA Data Protection Suite</a></li>
+          <li><a href="#billing">24-Hour Fast Track Submission</a></li>
+          <li><a href="about.html">Practice Assessment Audit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="approach.html">Our Approach</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="index.html#specialties">Specialties Served</a></li>
+          <li><a href="index.html#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact &amp; Book Demo</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <p class="copyright-text">
+          &copy; 2026 American Billing Company. All Rights Reserved. HIPAA Compliant.
+        </p>
+        <div class="legal-links">
+          <a href="#contact">Privacy Policy</a>
+          <span class="bar-separator">•</span>
+          <a href="#contact">Terms of Use</a>
+          <span class="bar-separator">•</span>
+          <a href="index.html#security">HIPAA Statement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Assistant Widget -->
+  <div class="floating-assistant-widget" id="assistantWidget">
+    <div class="chat-popup" id="chatPopup" aria-hidden="true">
+      <div class="chat-popup-header">
+        <div class="agent-avatar">
+          <span class="avatar-img">👩‍💼</span>
+          <span class="online-indicator"></span>
+        </div>
+        <div class="agent-info">
+          <span class="agent-name">American Billing Assistant</span>
+          <span class="agent-status">Online • Ready to Help</span>
+        </div>
+        <button class="chat-close-btn" id="closeChatBtn" aria-label="Close Assistant">✕</button>
+      </div>
+
+      <div class="chat-popup-body" id="chatMessages">
+        <div class="chat-msg bot">
+          <p>Hi, How can I help you? I'm your American Billing Company AI assistant for medical billing, credentialing, and AR recovery services.</p>
+        </div>
+
+        <div class="chat-quick-prompts">
+          <button class="prompt-chip" data-answer="Our medical billing service includes coding, charge entry, pre-submission scrubbing, electronic claim submission, payment posting, patient statements, and weekly practice reporting.">
+            What is included in medical billing?
+          </button>
+          <button class="prompt-chip" data-answer="We handle CAQH registration, NPI enrollment, Medicare group contracts, and track every application date to eliminate delays and objection from payers.">
+            How do you simplify credentialing?
+          </button>
+          <button class="prompt-chip" data-answer="We classify aging claims into 30-60-90-120+ days and conduct time-stamped follow-ups to recover unpaid bills from payers and patients.">
+            How do you resolve aged AR (>120 days)?
+          </button>
+          <button class="prompt-chip" data-answer="You can schedule a free practice assessment directly through our contact form, call (800) 585-3908, or email american@billing.us!">
+            How do I get started?
+          </button>
+        </div>
+      </div>
+
+      <div class="chat-popup-footer">
+        <div class="chat-input-wrapper">
+          <input type="text" id="chatInput" placeholder="Ask a question about our services..." aria-label="Ask a question">
+          <button id="sendChatBtn" aria-label="Send message">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <button class="assistant-pill-badge" id="openChatBtn" aria-label="Open American Billing Assistant">
+      <div class="badge-avatar-wrap">
+        <span class="avatar-pic">👩‍💼</span>
+        <span class="status-dot"></span>
+      </div>
+      <div class="badge-pill-text">
+        <span class="pill-top">Hi, How can I help you?</span>
+        <span class="pill-bottom">Your American Billing AI Assistant • <strong class="text-online">Online</strong></span>
+      </div>
+    </button>
+  </div>
+
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>
